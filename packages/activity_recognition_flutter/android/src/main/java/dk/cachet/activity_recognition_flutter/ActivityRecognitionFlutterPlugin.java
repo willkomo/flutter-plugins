@@ -108,7 +108,7 @@ public class ActivityRecognitionFlutterPlugin implements FlutterPlugin, EventCha
         // Pass the notification title/text/icon to the service
         intent.putExtra("title", "MonsensoMonitor")
                 .putExtra("text", "Monsenso Foreground Service")
-                .putExtra("icon", R.drawable.common_full_open_on_phone)
+                .putExtra("icon", android.R.drawable.ic_dialog_info)
                 .putExtra("importance", 3)
                 .putExtra("id", 10);
 

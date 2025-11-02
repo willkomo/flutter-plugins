@@ -66,7 +66,7 @@ public class ForegroundService extends Service {
 
         // Get notification icon
 //        int icon = getResources().getIdentifier((String) extras.get("icon"), "drawable", context.getPackageName());
-        int icon = R.drawable.common_full_open_on_phone;
+        int icon = android.R.drawable.ic_dialog_info;
         
         // Make notification
         Notification notification = new Notification.Builder(context, "foreground.service.channel")
